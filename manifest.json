@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "OmniboxBoilerplate",
+  "version": "0.1",
+  "description": "Your very first omnibox extension!",
+  "omnibox": { "keyword" : "omni" },
+  "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+  }
+}
